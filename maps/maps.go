@@ -27,6 +27,7 @@ func main() {
 	_, prs := m["k2"]
 	fmt.Println("prs:", prs)
 
+	// You can also declare and initialize a new map in the same line with this syntax.
 	n := map[string]int{"foo": 1, "bar": 2}
 	fmt.Println("map:", n)
 }
